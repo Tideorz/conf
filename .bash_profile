@@ -35,3 +35,8 @@ source $HOME/.keychain/$HOSTNAME-sh
 export PATH="~/.pyenv/bin:$PATH"
 eval "$(pyenv init -)"
 
+# .bash_profile                                                                                 2
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
